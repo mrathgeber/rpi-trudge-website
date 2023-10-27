@@ -1,0 +1,49 @@
+html {
+   overflow-x: hidden;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #404A3B;
+}
+
+.titlee {
+   display: flex;
+   justify-content: center;
+   width: 100vw;
+   margin-bottom: 2em;
+}
+
+.bios {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.bio {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+img.profile {
+   width: 60%;
+}
+
+.name {
+   color: #404A3B;
+   margin-bottom: -0.3em;
+}
+
+.bio h4 {
+   margin-bottom: 0;
+}
+
+.bio p {
+   margin-bottom: 2em;
+   width: 80%;
+}

@@ -1,0 +1,297 @@
+/* Element Selectors */
+
+html, body {
+   margin: 0;
+   background-color: #e9f2e6;
+}
+
+a {
+   all: unset;
+   cursor: pointer;
+}
+
+/* a:hover {
+   text-decoration: underline;
+   font-weight: bold;
+} */
+
+h2 {
+   font-family: "Patua One";
+   color: #e9f2e6;
+}
+
+nav {
+   height: 100%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   flex: 1;
+
+   margin-right: 1em;
+}
+
+nav a {
+   height: 5vh;
+}
+
+/* Class/ID Selectors */
+
+.header {
+   display: flex;
+   align-items: center;
+
+   height: 12vh;
+   width: 100%;
+
+   font-size: 24px;
+
+   margin-top: 0;
+   margin-bottom: 0;
+
+   background-color: #48932f;
+   position: sticky;
+   top: 0;
+   z-index: 3;
+
+   border-top: 3px solid #e9f2e6;
+   border-bottom: 3px solid #e9f2e6;
+}
+
+.favicon {
+   height: 12vh;
+   border-top: 3px solid #e9f2e6;
+   border-bottom: 3px solid #e9f2e6;
+}
+
+#title {
+   color: #e9f2e6;
+   font-size: 44px;
+   font-family: "Abril Fatface";
+   margin-left: 0.5em;
+}
+
+.nav-element {
+   margin-left: 1em;
+   margin-right: 1em;
+   margin-bottom: 0.8em;
+   color: #e9f2e6;
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: bold;
+}
+
+p.nav-element:hover {
+   text-decoration: underline;
+   font-weight: bolder;
+   color: #bdd8b4;
+   transition: 0.3s ease-in-out;
+}
+
+.home-img {
+   width: 100vw;
+   max-width: 100%;
+   margin-top: -10vh;
+}
+
+#home-content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+   font-size: 20px;
+   color: #404A3B;
+   margin-bottom: 2em;
+}
+
+#home-content a {
+   text-decoration: underline;
+   color: #237c06;
+   font-weight: bold;
+}
+
+.p1 {
+   grid-column-start: 1;
+   grid-column-end: 2;
+
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+.p2 {
+   grid-column-start: 2;
+   grid-column-end: 3;
+
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+.prac-info {
+   background-color: #8cbc84;
+   padding: 0.5em 1em 1em 1em;
+   border: 3px solid #237c06;
+}
+
+.prac-info h4 {
+   /* text-decoration: underline; */
+}
+
+.prac-info p {
+   margin-bottom: 0;
+}
+
+.headings {
+   display: flex;
+}
+
+.heading {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: -10vh;
+   border-top: 3px solid #e9f2e6;
+   background-color: #48932f
+   ;
+}
+
+.left {
+   border-right: 1.5px solid #e9f2e6;
+}
+
+.right {
+   border-left: 1.5px solid #e9f2e6;
+}
+
+.teams {
+   display: flex;
+   justify-content: center;
+
+   margin-top: 8em;
+}
+
+.team {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   width: 9em;
+   height: 9em;
+
+   border: 4px solid;
+}
+
+a.trudge:hover {
+   background-color: #bdd8b4;
+}
+
+a.strut:hover {
+   background-color: #e4c8d0;
+}
+
+.trudge {
+   position: relative;
+   margin-right: 3em;
+}
+
+.trudge:before {
+   content: "";
+   background-image: url(trudge-152x152.png);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   opacity: 0.2;
+}
+
+.trudge p {
+   color: #237c06;
+   font-weight: bolder;
+   font-family: "Mooli";
+}
+
+.strut {
+   position: relative;
+   margin-left: 3em;
+}
+
+.strut:before {
+   content: "";
+   background-image: url(strut-192x192.png);
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   opacity: 0.2;
+}
+
+.strut p {
+   color: #c5325c;
+   font-weight: bold;
+   font-family: "Mooli";
+}
+
+.desc {
+   margin-top: 0;
+}
+
+footer {
+   width: 100%;
+   height: 20vh;
+   background-color: black;
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+/* .social-wrapper {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 2em;
+} */
+
+.socials {
+   color: #A9A9A9;
+   font-family: "Inter";
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   margin-bottom: 1.4em;
+}
+
+.socials h4 {
+   margin-bottom: 0;
+}
+
+.socials p {
+   font-size: 12px;
+   margin-top: 0.75em;
+}
+
+.fab {
+   color: #A9A9A9;
+   font-size: 18px;
+
+   margin-left: 0.4em;
+   margin-right: 0.8em;
+}
+
+.fab:hover {
+   color: white;
+   transition: 0.3s ease-in-out;
+}
+
+.vl {
+   width: 1px;
+   height: 70%;
+   background-color: #A9A9A9;
+   margin-left: 1em;
+   margin-right: 1em;
+}
