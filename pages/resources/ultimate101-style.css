@@ -1,0 +1,73 @@
+/* .heading h1 {
+   margin-bottom: 0;
+}
+
+.heading h3 {
+   margin-top: 0.75em;
+   margin-bottom: 0.75em;
+}
+
+.heading a {
+   text-decoration: underline;
+} */
+
+.ultimate101-heading {
+   display: flex;
+   align-items: center;
+   margin-bottom: 0;
+   cursor: pointer;
+   background-color: #8cbc84;
+}
+
+.ultimate101-heading h2 {
+   color: #404A3B;
+}
+
+.ultimate101-heading h3 {
+   color: #404A3B;
+   font-family: "Patua One";
+   margin-left: 0.4em;
+}
+
+.ultimate101-heading i {
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+}
+
+.ultimate101-img {
+   width: 33.1%;
+}
+
+.rules h2 {
+   color: #404A3B;
+   margin-left: 1.5em;
+}
+
+.dictionary-heading h2 {
+   margin-left: 0;
+}
+
+.rules p {
+   color: #404A3B;
+   margin-left: 1.5em;
+}
+
+.rules, .terminology {
+   display: none;
+}
+
+.dictionary-heading {
+   display: flex;
+   align-items: center;
+   background-color: #C0C0C0;
+   cursor: pointer;
+}
+
+.dictionary-heading i {
+   margin-left: 1.5em;
+   margin-right: 0.5em;
+}
+
+#u101-h3 {
+   border-bottom: 3px solid #e9f2e6;
+}

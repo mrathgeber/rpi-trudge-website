@@ -10,13 +10,6 @@ html {
    color: #404A3B;
 }
 
-.titlee {
-   display: flex;
-   justify-content: center;
-   width: 100vw;
-   margin-bottom: 2em;
-}
-
 .bios {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;

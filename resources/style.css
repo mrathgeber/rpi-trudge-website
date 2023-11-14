@@ -36,6 +36,9 @@ nav a {
 
 /* Class/ID Selectors */
 
+/* ----------------- Header ----------------- */
+
+/* universal header section */
 .header {
    display: flex;
    align-items: center;
@@ -57,12 +60,14 @@ nav a {
    border-bottom: 3px solid #e9f2e6;
 }
 
+/* trudge header favicon */
 .favicon {
    height: 12vh;
    border-top: 3px solid #e9f2e6;
    border-bottom: 3px solid #e9f2e6;
 }
 
+/* universal header title */
 #title {
    color: #e9f2e6;
    font-size: 44px;
@@ -87,10 +92,37 @@ p.nav-element:hover {
    transition: 0.3s ease-in-out;
 }
 
+/* ----------------- Content ----------------- */
+
+/* strudge team picture */
 .home-img {
    width: 100vw;
    max-width: 100%;
    margin-top: -10vh;
+}
+
+.home-headings {
+   display: flex;
+}
+
+.home-heading {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: -10vh;
+   border-top: 3px solid #e9f2e6;
+   background-color: #48932f
+   ;
+}
+
+/* home left heading */
+.home-left {
+   border-right: 1.5px solid #e9f2e6;
+}
+
+/* home right heading */
+.home-right {
+   border-left: 1.5px solid #e9f2e6;
 }
 
 #home-content {
@@ -108,7 +140,8 @@ p.nav-element:hover {
    font-weight: bold;
 }
 
-.p1 {
+/* home paragraph 1 */
+.home-p1 {
    grid-column-start: 1;
    grid-column-end: 2;
 
@@ -116,7 +149,8 @@ p.nav-element:hover {
    margin-right: 1em;
 }
 
-.p2 {
+/* home paragraph 2 */
+.home-p2 {
    grid-column-start: 2;
    grid-column-end: 3;
 
@@ -130,35 +164,11 @@ p.nav-element:hover {
    border: 3px solid #237c06;
 }
 
-.prac-info h4 {
-   /* text-decoration: underline; */
-}
-
 .prac-info p {
    margin-bottom: 0;
 }
 
-.headings {
-   display: flex;
-}
-
-.heading {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   margin-top: -10vh;
-   border-top: 3px solid #e9f2e6;
-   background-color: #48932f
-   ;
-}
-
-.left {
-   border-right: 1.5px solid #e9f2e6;
-}
-
-.right {
-   border-left: 1.5px solid #e9f2e6;
-}
+/*
 
 .teams {
    display: flex;
@@ -237,7 +247,12 @@ a.strut:hover {
    margin-top: 0;
 }
 
+*/
+
+/* ----------------- Footer ----------------- */
+
 footer {
+   border-top: 3px solid #e9f2e6;
    width: 100%;
    height: 20vh;
    background-color: black;
@@ -247,12 +262,81 @@ footer {
    align-items: center;
 }
 
-/* .social-wrapper {
+.hr-holder {
    display: flex;
-   justify-content: flex-end;
    align-items: center;
-   margin-right: 2em;
-} */
+   width: 100%;
+   height: 1%;
+}
+
+.hr {
+   width: 100%;
+   background-color: #A9A9A9;
+   height: 0.25px;
+}
+
+.footer-info {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   width: 70%;
+   height: 100%;
+}
+
+.footer-nav {
+   display: flex;
+   align-items: center;
+   height: 60%;
+   color: #C0C0C0;
+   font-size: 18px;
+   margin-top: 0.25em;
+}
+
+.footer-nav a {
+   font-family: "Inter";
+   font-size: 14px;
+   margin-left: 3em;
+   margin-right: 3em;
+}
+
+.footer-nav a:hover {
+   text-decoration: underline;
+}
+
+.footer-nav h3 {
+   margin-left: 1.5em;
+}
+
+.site-links {
+   display: flex;
+   flex: 1;
+   justify-content: center;
+}
+
+.footer-contact {
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   height: 40%;
+   font-size: 12px;
+   color: #A9A9A9;
+}
+
+.footer-contact p {
+   margin-left: 1em;
+   margin-right: 1em;
+   margin-top: 0;
+   margin-bottom: 1em;
+}
+
+.socials-wrapper {
+   display: flex;
+   height: 100%;
+   padding-right: 2em;
+   padding-left: 2em;
+   border-right: 0.75px solid #A9A9A9;
+   border-left: 0.75px solid #A9A9A9;
+}
 
 .socials {
    color: #A9A9A9;
@@ -275,6 +359,7 @@ footer {
    margin-top: 0.75em;
 }
 
+/* social media icon */
 .fab {
    color: #A9A9A9;
    font-size: 18px;
@@ -288,10 +373,51 @@ footer {
    transition: 0.3s ease-in-out;
 }
 
+.vl-holder {
+   display: flex;
+   height: 100%;
+   align-items: center;
+}
+
 .vl {
    width: 1px;
    height: 70%;
    background-color: #A9A9A9;
    margin-left: 1em;
    margin-right: 1em;
+}
+
+.footer-right-section {
+   height: 100%;
+   width: 14px;
+}
+
+.secret {
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+
+/* .easter-egg {
+   height: 100%;
+   opacity: 0;
+   transition: all 0.2s;
+   transition-delay: 0.2s;
+}
+
+.easter-egg:hover {
+   height: 100%;
+   opacity: 1.0;
+   transition-delay: 0s;
+} */
+
+/* ----------------- Other Pages ----------------- */
+
+.heading {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100vw;
+   margin-bottom: 2em;
+   color: #404A3B;
 }

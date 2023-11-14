@@ -7,11 +7,18 @@
 
    <link rel="stylesheet" href="..\resources\style.css">
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="resources\ultimate101-style.css">
+
+   <script type="text/javascript" src="resources/jquery-3.6.1.min.js"></script>
+   <script type="text/javascript" src="resources\ultimate101.js"></script>
+
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
    <link href='https://fonts.googleapis.com/css?family=Mooli' rel='stylesheet'>
    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet'>
    <link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet'>
+
 </head>
 
 <body>
@@ -31,20 +38,234 @@
          <p class="nav-element"><a href="officers.html">Meet The Crew</a></p>
          <p class="nav-element">About</p>
          <p class="nav-element">Contact</p>
-
-         <div class="nav-element">
-            <a href="https://www.instagram.com/rpitrudgeultimate/?hl=en" target="_blank">
-               <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/rpitrudge" target="_blank">
-               <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.facebook.com/RPITRUDGEULTIMATE/" target="_blank">
-               <i class="fab fa-facebook"></i>
-            </a>
-         </div>
       </nav>
    </div>
+
+   <!-- <div class="heading">
+      <h1>Ultimate in 10 Simple Rules</h1>
+      <h3>as per <a href="https://usaultimate.org/rules/10-simple-rules/" target="_blank">USA Ultimate</a></h3>
+   </div> -->
+
+   <div class="u101-imgs">
+      <img class="ultimate101-img" src="resources\aaron-danse.jpg" alt="ga ga ga ga">
+      <img class="ultimate101-img" src="resources\coaching.jpg" alt="ga ga ga ga">
+      <img class="ultimate101-img" src="resources\celina-capital.jpg" alt="ga ga ga ga">
+   </div>
+
+   <div id="u101-h1" class="ultimate101-heading">
+      <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+      <h2>Ultimate in 10 Simple Rules</h2>
+      <h3>(as per USA Ultimate</a>)</h3>
+   </div>
+
+   <div id="rules-10" class="rules">
+      <h2>1. The Field</h2>
+      <p>A rectangular shape with end zones at each end. A regulation field is 70 yards long by 40 yards wide, with end zones 20 yards deep.</p>
+      
+      <h2>2. Starting Play</h2>
+      <p>Each point begins with both teams lining up on the front of opposite end zone lines. The defense throws (“pulls”) the disc to the offense. A regulation game has seven players per team.</p>
+   
+      <h2>3. Scoring</h2>
+      <p>Each time the offense catches a pass in the defense’s end zone, the offense scores a point. The teams switch direction after every goal, and the next point begins with a new pull by the team that just scored.</p>
+
+      <h2>4. Movement of the Disc</h2>
+      <p>The disc may be advanced in any direction by completing a pass to a teammate. Players may not run with the disc. The person with the disc (“thrower”) has ten seconds to throw the disc. The defender guarding the thrower (“marker”) counts out the stall count.</p>
+      
+      <h2>5. Change of Possession</h2>
+      <p>When a pass is not completed (e.g. out of bounds, drop, block, interception, stalled), the defense immediately takes possession of the disc and becomes the offense.</p>
+
+      <h2>6. Substitutions</h2>
+      <p>Players not in the game may replace players in the game after a score and during an injury timeout.</p>
+
+      <h2>7. Non-Contact</h2>
+      <p>Players must attempt to avoid physical contact during play. Picks and screens are also prohibited.</p>
+
+      <h2>8. Fouls</h2>
+      <p>When a player initiates contact that affects the play, a foul occurs. When a foul causes a player to lose possession, the play resumes as if the possession was retained. If the player that the foul was called against disagrees with the foul call, the play is redone.</p>
+
+      <h2>9. Self-Officiating</h2>
+      <p>Players are responsible for their own foul and line calls. Players resolve their own disputes.</p>
+      
+      <h2>10. Spirit of the Game</h2>
+      <p>The foundation of the rules in ultimate is Spirit of the Game, which places the responsibility for fair play on the player. Competitive play is encouraged, but never at the expense of respect between players, adherence to the rules, and the basic joy of play.</p>
+   </div>
+
+   <div id="u101-h2" class="ultimate101-heading">
+      <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+      <h2>Ultimate in 3 Simple Rules</h2>
+      <h3>(as per me)</h3>
+   </div>
+
+   <div id="rules-3" class="rules">
+      <h2>1. Throwing</h2>
+      <p>There are a few different ways to do this. Running while in possesion of the disc is prohibited.</p>
+
+      <h2>2. Catching</h2>
+      <p>Catching the disc in the opponent's endzone results in a score. Dropping the disc results in a turnover, and is generally considered offensive malpractice.</p>
+
+      <h2>3. Running (optional)</h2>
+      <p>A nifty technique used to create space and get open to receive a pass. Some experts argue that "running" has been rendered obsolete by the more modern approach to ultimate known as "being tall." Proficiency in at least one of these areas is crucial for success in the sport.</p>
+   </div>
+
+   <div id="u101-h3" class="ultimate101-heading">
+      <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+      <h2>Dictionary</h2>
+   </div>
+
+   <div id="dictionary" class="rules">
+      <div id="dict-h1" class="dictionary-heading">
+         <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+         <h2>Basic Terminology</h2>
+      </div>
+      <div id="basic-terminology" class="terminology">
+         <p><b>Cutter</b>: An offensive player who mainly makes cuts to receive the disc and gain yards, sets up down field from the disc.</p>
+         <p><b>Handler</b>: An offensive player whose main job is to make throws to cutters, either has the disc or is set up relatively horizontal to the disc.</p>
+         <p><b>Mark</b>: The defensive player that is guarding the offensive player with the disc. The mark is usually trying to block certain throws while counting stalls.</p>
+         <p><b>Stall</b>: Stalls are counted by the mark, starting by saying “stall/stalling 1” and counting up to 10. If the “t” in ten is pronounced, the mark then says “stall,” and the disc is turned over.</p>
+         <p><b>Pivot</b>: The person with the disc must establish a pivot foot (the thrower's non-dominant foot). This foot must remain in place at all times when holding the disc. The thrower's dominant foot may move around to try and throw around the mark.</p>
+         <p>---</p>
+         <p><b>Force</b>: The side of the field the mark is allowing the offense to throw to, usually signified by saying “force home” or “force away.”</p>
+         <p><b>Home</b>: The side of the field where the team's equipment is, and most of the sideline players.</p>
+         <p><b>Away</b>: The side of the field that a team's equipment is not, with fewer sideline players.</p>
+         <p><b>Break side</b>: The side of the field the mark is trying to stop throws from going to.</p>
+         <p><b>Open side/force side</b>: The side of the field the mark is allowing throws to go to. This side is covered by the downfield defenders.</p>
+      </div>
+
+      <div id="dict-h2" class="dictionary-heading">
+         <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+         <h2>Throws</h2>
+      </div>
+      <div id="throws" class="terminology">
+         <p><b>Backhand</b>: The “basic” throw in ultimate. Involves grasping the disc with four fingers, with the throwing motion on the non-dominant side.</p>
+         <p><b>Forehand/Flick</b>: This throw involves holding the disc with the index and middle fingers underneath, and throwing from the dominant side.</p>
+         <p><b>Hammer</b>: An over the top throw using the forehand grip to throw the disc from above your head, with it flying upside down.</p>
+         <p>---</p>
+         <p><b>Pull</b>: This throw begins every point in ultimate. The team starting on defense throws to the team on offense, similar to a kickoff in football.</p>
+         <p><b>Dump</b>: A throw made if there are no open cuts to prevent a stall. The thrower looks for a handler, and passes to them for a small or negative gain.</p>
+         <p><b>Swing</b>: A throw that gains minimal yards, but brings the disc from one side of the field to the other.</p>
+         <p><b>Huck</b>: A deep throw.</p>
+      </div>
+
+      <div id="dict-h3" class="dictionary-heading">
+         <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+         <h2>Cuts</h2>
+      </div>
+      <div id="cuts" class="terminology">
+         <p><b>Upline</b>: A cut usually run by a handler that gains yards down the sideline on the force side.</p>
+         <p><b>Deep</b>: A cut where the player runs towards the end zone, away from the disc.</p>
+         <p><b>Under</b>: A cut where the player runs toward the disc, away from the end zone.</p>
+         <p><b>Clear</b>: Running back to the stack after making a cut that was not thrown to, leaving the space for other players.</p>
+      </div>
+
+      <div id="dict-h4" class="dictionary-heading">
+         <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+         <h2>Other Terminology (if you're a nerd)</h2>
+      </div>
+      <div id="other-terminology" class="terminology">
+         <p><b>Vertical stack</b>: The main offensive set against person defense. Involves one handler setting the stack, and the cutters lined up vertically down the field behind the setter. Cuts usually come from the back of the stack.</p>
+         
+         <p>---</p>
+
+         <p><b>Horizontal stack</b>: The main offensive set against zone defense, but can be run against person defense as well. Involves the four cutters lined up horizontally along the field. The outside cutters are known as wings, and the inside cutters are known as poppers.</p>
+         <p><b>Crash</b>: A cut that goes into the defensive cup set up during zone defense, looking for a small gain that will create an opening in the cup.</p>
+         
+         <p><b>Around</b>: A break side throw that is made on the side the mark is trying to block.</p>
+         <p><b>Inside</b>: A throw</p>
+
+         <p><b>Layout/Bid</b>: A diving catch where the receiver goes horizontally to grab the disc.</p>
+         <p><b>Brick</b>: A marker in the middle of the field, 20 yards outside each endzone. The disc is brought here to begin play after a pull lands out of bounds.</p>
+      </div>
+
+      <div id="dict-h5" class="dictionary-heading">
+         <i class='fas fa-angle-double-right' style='font-size:36px'></i>
+         <h2>Infractions (if you're a mega nerd)</h2>
+      </div>
+      <div id="infractions" class="terminology">
+         <p><b>Foul</b>:</p>
+      </div>
+
+   </div>
+
+   <footer>
+
+      <div class="footer-info">
+         <div class="footer-nav">
+            <h3>Site Links</h3>
+            <div class="site-links">
+               <a href="pages\ultimate101.html">Ultimate 101</a>
+               <a href="pages\officers.html">Meet The Crew</a>
+               <a href="pages\officers.html">About</a>
+               <a href="pages\officers.html">Contact</a>
+            </div>
+         </div>
+
+         <div class="hr-holder">
+            <div class="hr"></div>
+         </div>
+   
+         <div class="footer-contact">
+            <p>Site Design: Matteo Rathgeber</p>
+            <p>Webmaster: Matteo Rathgeber</p>
+            <p>Contact Me: rathgm@rpi.edu</p>
+            <p>Last Updated: 9 Nov 2023</p>
+            <!-- <p>Please contact Matteo at rathgm@rpi.edu with any questions or comments about this site!</p> -->
+         </div>
+      </div>
+
+      <div class="socials-wrapper">
+
+         <div class="socials">
+
+            <h4>Trudge</h4>
+            <p>(Men's Team)</p>
+   
+            <div>
+               <a href="https://www.instagram.com/rpitrudgeultimate/?hl=en" target="_blank">
+                  <i class="fab fa-instagram"></i>
+               </a>
+               <a href="https://twitter.com/rpitrudge" target="_blank">
+                  <i class="fab fa-twitter"></i>
+               </a>
+               <a href="https://www.facebook.com/RPITRUDGEULTIMATE/" target="_blank">
+                  <i class="fab fa-facebook"></i>
+               </a>
+            </div>
+         </div>
+         
+         <div class="vl-holder">
+            <div class="vl"></div>
+         </div>
+   
+         <div class="socials">
+   
+            <h4>Strut</h4>
+            <p>(Women's Team)</p>
+   
+            <div>
+               <a href="https://www.instagram.com/rpistrut/?hl=en" target="_blank">
+                  <i class="fab fa-instagram"></i>
+               </a>
+               <a href="https://twitter.com/rpistrut?lang=en" target="_blank">
+                  <i class="fab fa-twitter"></i>
+               </a>
+               <a href="https://www.facebook.com/RPIStrut/" target="_blank">
+                  <i class="fab fa-facebook"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer-right-section">
+
+         <div class="secret"></div>
+
+         <div class="hr-holder">
+            <div class="hr"></div>
+         </div>
+      </div>
+
+   </footer>
+
 </body>
 
 </html>
