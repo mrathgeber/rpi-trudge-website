@@ -1,0 +1,134 @@
+{
+   "officers": [
+      {
+         "name": "Charlie Heffernan",
+         "position": "President",
+         "email": "heffec2@rpi.edu",
+         "image": "officers-resources/charlie-heffernan.webp",
+         "year": "Sophomore",
+         "major": "Mechanical Engineering",
+         "stats": ["Height: Yes", "Mr. RPI Beauty Pageant titles: 1", "Most articles of clothing worn at one time: 95"],
+         "funfacts": ["Fun Fact: According to science, a human as majestic and ethereal as Charlie Heffernan could never physically exist, and therefore he is merely a collective hallucination."]
+      },
+      {
+         "name": "Antoine Mathieu",
+         "position": "Captain",
+         "email": "mathia2@rpi.edu",
+         "image": "officers-resources/antoine-mathieu.webp",
+         "year": "Junior",
+         "major": "Biomedical Engineering",
+         "stats": ["Cake Status: 🍰", "Birthplace: California", "Total years lived in California: 3", "Average hours of sleep preceding major tournaments: 1.5", "Music videos performed in: 1"],
+         "funfacts": ["Fun Fact: Legend has it that Antoine has not reached a full sprint since 2012 (or if he has we haven't noticed).", "Other Fun Fact: You can take the boy out of Cali but you can't take the Cali out of the boy."]
+      },
+      {
+         "name": "Aaron Gilbert",
+         "position": "Captain",
+         "email": "gilbea3@rpi.edu",
+         "image": "officers-resources/aaron-gilbert.webp",
+         "year": "Sophomore",
+         "major": "Civil Engineering",
+         "stats": ["Nickname: Roni", "Incorrect spellings: Rony, Ronni, Ronie", "Favorite Bridge: Suspension", "Favorite Concrete Component: Aggregate", "Years playing ultimate: all of them", "Cleats: still don't fit"],
+         "funfacts": ["Fun Fact: In the aftermath of the 1986 Chernobyl Disaster, Aaron was left with a devastating vocal mutation that prevents him from saying his own name right."]
+      },
+      {
+         "name": "Samantha Heinzman",
+         "position": "Captain",
+         "email": "heinzs@rpi.edu",
+         "image": "officers-resources/samantha-heinzman.webp",
+         "year": "Sophomore",
+         "major": "Nuclear Engineering",
+         "stats": ["Hometown: Portland, Maine", "Favorite town: Portland, Maine", "Current residence: Troy, New York", "Spiritual residence: Portland, Maine"],
+         "funfacts": ["Fun Fact: Samantha prides herself in being one of the 20 people in the whole world who live in Maine.", "Other Fun Fact: Samantha lives in Maine."]
+      },
+      {
+         "name": "Andrew Gervia",
+         "position": "Vice President",
+         "email": "gervia2@rpi.edu",
+         "image": "officers-resources/andrew-gervia.webp",
+         "year": "Sophomore",
+         "major": "Mechanical/Aeronautical Eng.",
+         "stats": ["Nickname: Bandrew", "Least favorite budget motel chain: Motel 6", "Least favorite sleeping location: Bed"],
+         "funfacts": ["Fun Fact: Bandrew's nickname came from his one man band act he did in the 10th grade, where he won the talent show and secured his title as the one-man-band-guy.", "Other Fun Fact: Bandrew has never worn a headband once in his entire life."]
+      },
+      {
+         "name": "Reilly Prendergast",
+         "position": "Vice President",
+         "email": "prendr@rpi.edu",
+         "image": "officers-resources/reilly-prendergast.webp",
+         "year": "Sophomore",
+         "major": "Computer Science",
+         "stats": ["Fun Fact: Grew up in New Jersey", "Psychotic Fact: Likes New Jersey", "Favorite Food: Iceberg lettuce, whole, unwashed", "Hobbies: Digging holes, hopping around", "Spirit animal: Rabbit"],
+         "funfacts": ["Fun Fact: Reilly appeared as Bill Murray's stunt double in the critically-acclaimed 1993 film <em>Groundhog Day</em>."]
+      },
+      {
+         "name": "C.J. Tien",
+         "position": "Treasurer",
+         "email": "tienc3@rpi.edu",
+         "image": "officers-resources/cj-tien.webp",
+         "year": "Sophomore",
+         "major": "Mechanical/Aeronautical Eng.",
+         "stats": ["Primary Sport: Ultimate", "Hobbies: Curling, skiing, being stressed", "Career two-hand-catch attempts: 0", "Boyfriend material: Absolutely. If you have any leads, please reach out to a captain."],
+         "funfacts": ["Fun Fact: C.J. is co-president of RPI's #1 nationally ranked curling team. Sometimes we wonder if we'd be nationally ranked if C.J. put as much time into ultimate as he did into curling.", "Other Fun Fact: He's fast"]
+      },
+      {
+         "name": "Celina Ohiwa",
+         "position": "Treasurer",
+         "email": "ohiwac@rpi.edu",
+         "image": "officers-resources/celina-ohiwa.webp",
+         "year": "Sophomore",
+         "major": "Mechanical/Aeronautical Eng.",
+         "stats": ["Height: No", "Hobbies: Studying, racketeering, not eating gluten", "Stance on what \"dogs\" refer to: socks", "Handler Status: 🐐"],
+         "funfacts": ["Fun Fact: Bitten by a radioactive ant at a young age, Celina shrunk and then developed an \"allergy\" to dairy and gluten. Cringe."]
+      },
+      {
+         "name": "Evan Maseto",
+         "position": "OSCAR",
+         "email": "masete@rpi.edu",
+         "image": "officers-resources/evan-maseto.webp",
+         "year": "Sophomore",
+         "major": "Mechanical/Aeronautical Eng.",
+         "stats": ["Number of hats owned: Yes", "Moral Compass: None", "Favorite defense contractor: Any that will hire him", "Favorite uranium isotope: U-236", "Spirit Animal: Anchovy"],
+         "funfacts": ["Fun Fact: Evan solely wears Air Force Ones in the hopes that it will win him favor in the aerospace industry."]
+      },
+      {
+         "name": "Matteo Rathgeber",
+         "position": "Webmaster",
+         "email": "rathgm@rpi.edu",
+         "image": "officers-resources/matteo-rathgeber.webp",
+         "year": "Sophomore",
+         "major": "Computer Science/ITWS",
+         "stats": ["Nickname: Sharky", "Hobbies: milk, wearing other people's socks", "Kryptonite: His own shins", "Anti-Kryptonite: Ice and more milk", "Bone Status: Indestructible (allegedly)", "Ibuprofen Intake: Undisclosed"],
+         "funfacts": ["Fun Fact: Sharky's monthly cereal budget is higher than what he pays in rent."]
+      },
+      {
+         "name": "Jack Gest",
+         "position": "Juice",
+         "email": "gestj@rpi.edu",
+         "image": "officers-resources/jack-gest.webp",
+         "year": "Senior",
+         "major": "Mechanical Engineering",
+         "stats": ["Average body temperature: 83.4°F", "Favorite crime: Grave robbing", "LinkedIn connections: 63", "Fish sandwich of choice: McFish"],
+         "funfacts": ["Fun Fact: When he's not playing ultimate, Jack moonlights as a clown for children's birthday parties."]
+      },
+      {
+         "name": "Max Dyer",
+         "position": "Coach",
+         "email": "dyerh@rpi.edu",
+         "image": "officers-resources/max-dyer.webp",
+         "year": "Alumnus",
+         "major": "Industrial Engineering",
+         "stats": ["Favorite Food: Loaf of bread", "Personality: Loaf of bread", "Willingness to layout: Too high", "Skeleton material: Bread probably"],
+         "funfacts": ["Fun Fact: Max is an adult with a real job and a girlfriend."]
+      },
+      {
+         "name": "Kevin Roux",
+         "position": "Assistant Coach",
+         "email": "rouxk@rpi.edu",
+         "image": "officers-resources/kevin-roux.webp",
+         "year": "PhD Student",
+         "major": "Physics",
+         "stats": ["Research Field: Astronomy", "Bachelor Degrees: 3", "Rocket League Duos Rank: Champ II", "Orbits around the Sun: Many"],
+         "funfacts": ["Fun Fact: Carbon dating has placed Kevin's date of birth somewhere between 1602 and 1997 A.D.", "As far as we're concerned, the mere possibility that Kevin was born in the 1900's makes us question how he is able to run 10 feet without slipping a disc."]
+      }
+   ]
+}

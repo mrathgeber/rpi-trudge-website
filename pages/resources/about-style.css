@@ -1,0 +1,43 @@
+html {
+   overflow-x: hidden;
+}
+
+#wrapper {
+   display: flex;
+}
+
+#left {
+   width: 50%;
+}
+
+.yop-schlop {
+   width: 100%;
+   height: 100%;
+}
+
+#right-wrapper {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   /* border: 4px solid #404A3B; */
+}
+
+#right {
+   width: 85%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   /* height: 66.1vh; */
+}
+
+.about-heading {
+   font-family: "Patua One";
+   margin-bottom: 0.25em;
+}
+
+.contact {
+   margin-top: 4.5em;
+   margin-bottom: 0;
+}

@@ -1,4 +1,4 @@
-.ultimate101-heading {
+.u101-heading {
    display: flex;
    align-items: center;
    margin-bottom: 0;
@@ -6,20 +6,28 @@
    background-color: #8cbc84;
 }
 
-.ultimate101-heading h2 {
+.dictionary-heading {
+   background-color: #C0C0C0;
+}
+
+.u101-heading h2 {
    color: #404A3B;
 }
 
-.ultimate101-heading h3 {
+.u101-heading h3 {
    color: #404A3B;
    font-family: "Patua One";
    margin-left: 0.4em;
 }
 
-.ultimate101-heading i {
+.u101-heading i {
    margin-left: 0.5em;
    margin-right: 0.5em;
    transition: transform 0.5s;
+}
+
+.dictionary-heading i {
+   margin-left: 1.5em;
 }
 
 .ultimate101-img {
@@ -44,24 +52,6 @@
    display: none;
 }
 
-.dictionary-heading {
-   display: flex;
-   align-items: center;
-   background-color: #C0C0C0;
-   cursor: pointer;
-}
-
-.dictionary-heading i {
-   margin-left: 1.5em;
-   margin-right: 0.5em;
-   transition: transform 0.5s;
-}
-
-#u101-h3 {
-   border-bottom: 3px solid #e9f2e6;
-}
-
-.term {
-   color: #48932f;
-   font-weight: 900;
+#dictionary {
+   /* border-bottom: 1.5px solid #e9f2e6; */
 }
