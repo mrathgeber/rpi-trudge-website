@@ -1,7 +1,7 @@
 $(function () {
    $.ajax({
       type: "GET",
-      url: "resources/officers.json",
+      url: "resources/scripts/officers.json",
       dataType: "json",
       success: function(officerData){
 

@@ -4,22 +4,35 @@ html {
 
 #wrapper {
    display: flex;
+   align-items: center;
+
+   @media (max-width: 768px) {
+      flex-direction: column;
+   }
 }
 
 #left {
+   display: flex;
    width: 50%;
+   align-items: center;
+
+   @media (max-width: 768px) {
+      width: 100%;
+   }
 }
 
 .yop-schlop {
    width: 100%;
-   height: 100%;
 }
 
 #right-wrapper {
    width: 50%;
    display: flex;
    justify-content: center;
-   /* border: 4px solid #404A3B; */
+
+   @media (max-width: 768px) {
+      width: 100%;
+   }
 }
 
 #right {
@@ -29,7 +42,6 @@ html {
    justify-content: center;
    align-items: center;
    text-align: center;
-   /* height: 66.1vh; */
 }
 
 .about-heading {
@@ -38,6 +50,14 @@ html {
 }
 
 .contact {
-   margin-top: 4.5em;
+   margin-top: 2.5em;
    margin-bottom: 0;
+}
+
+h4 {
+   margin-bottom: 0;
+
+   @media (max-width: 768px) {
+      margin-bottom: 1em;
+   }
 }

@@ -18,6 +18,11 @@
    color: #404A3B;
    font-family: "Patua One";
    margin-left: 0.4em;
+
+   @media (max-width: 768px) {
+      text-align: center;
+      margin-left: 0;
+   }
 }
 
 .u101-heading i {
@@ -30,8 +35,13 @@
    margin-left: 1.5em;
 }
 
+.u101-imgs {
+   display: flex;
+   justify-content: center;
+}
+
 .ultimate101-img {
-   width: 33.1%;
+   width: 33.33%;
 }
 
 .rules h2 {
@@ -50,8 +60,4 @@
 
 .rules, .terminology {
    display: none;
-}
-
-#dictionary {
-   /* border-bottom: 1.5px solid #e9f2e6; */
 }
