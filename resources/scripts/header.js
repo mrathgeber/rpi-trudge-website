@@ -2,6 +2,7 @@ $(function () {
    var output = "";
    var body = $("body").html();
 
+   output += "<div class='header-top'></div>";
    output += "<div class=header>";
 
    // Trudge favicon
