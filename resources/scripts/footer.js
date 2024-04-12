@@ -18,8 +18,8 @@ $(function () {
 
    output += "<div class='footer-contact'>" +
                "<p>Site Design: Matteo Rathgeber</p>" +
-               "<p>Webmaster: Matteo Rathgeber</p>" +
-               "<p>Contact Me: rathgm@rpi.edu</p>" +
+               "<p>Webmasters: Matteo Rathgeber & Nyssa Gandhi</p>" +
+               "<p>Contact Us: rathgm@rpi.edu or gandhn3@rpi.edu</p>" +
                "<p>Last Updated: 12 Apr 2024</p>" +
                "<p>v1.1.0</p>" +
              "</div>";
