@@ -20,8 +20,8 @@ $(function () {
                "<p>Site Design: Matteo Rathgeber</p>" +
                "<p>Webmaster: Matteo Rathgeber</p>" +
                "<p>Contact Me: rathgm@rpi.edu</p>" +
-               "<p>Last Updated: 20 Nov 2023</p>" +
-               "<p>v1.0.0</p>" +
+               "<p>Last Updated: 12 Apr 2024</p>" +
+               "<p>v1.1.0</p>" +
              "</div>";
 
    output += "</div>"; // End .footer-info
